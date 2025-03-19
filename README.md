@@ -19,11 +19,17 @@ This project is a **high-performance video encoding server** built with Python, 
 📂 VideoEncoderServer
  ├── main.py  # Core server logic and FFmpeg integration
  ├── requirements.txt  # Dependencies
- ├── README.md  # Documentation
+ ├── dockerfile # Script to build a minimal image
+ ├── README.md  # This file
+ ├── LICENSE # Legalise
  └── .env  # Environment variables (not included in repo)
 ```
 
 ## Setup & Installation
+
+### Use docker build
+
+## or
 
 ### Prerequisites
 
@@ -31,7 +37,6 @@ Ensure you have the following installed:
 
 - Python 3.8+
 - FFmpeg
-- AWS S3 credentials
 - MongoDB instance
 
 ### Install Dependencies
