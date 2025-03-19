@@ -29,7 +29,7 @@ This project is a **high-performance video encoding server** built with Python, 
 
 ### Use docker build
 
-# or
+### or
 
 ### Prerequisites
 
